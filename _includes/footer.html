@@ -1,3 +1,7 @@
+<div>
+    <img src= "{{site.url}}/assets/footer.jpg", width = 100%>
+</div>
+
 <footer class="site-footer">
 
   <div class="wrapper">
@@ -6,15 +10,18 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-
+          <img src = "{{site.url}}/assets/saki_pic.jpg", width = 110px>
       </div>
 
       <div class="footer-col footer-col-2">
+
+      <ul class="contact-list">
+
+        <li>{{ site.author }}</li>
+        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+
+      </ul>
+
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
@@ -33,6 +40,7 @@
       <div class="footer-col footer-col-3">
         <p>{{ site.description }}</p>
       </div>
+
     </div>
 
   </div>

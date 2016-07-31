@@ -43,4 +43,8 @@ Now, depending on what fold of my topologically complex personality you're parti
 
 ### This site
 
-This site is built using [Jekyll](https://jekyllrb.com) on the [Github Pages](https://github.io) platform using the [Atom](https://atom.io/) editor. Why? I enjoy writing Github-flavored Markdown, using the command line, and wrangling with git.
+This site is built using [Jekyll](https://jekyllrb.com) on the [Github Pages](https://github.io) platform, using the [Atom](https://atom.io/) editor. Why? I enjoy writing Github-flavored Markdown, using the command line, and wrangling with git.
+
+The sans-serif font you see here is [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro), and the monospace used in code listings is [Fira Mono](https://fonts.google.com/specimen/Fira+Mono).
+
+The header and footer images are cropped sections of [a scan from page 216 of "A test of a pneumatic ASH handling system" (1914)](https://flic.kr/p/owqL2L) in the Internet Archive Book Images collection.
