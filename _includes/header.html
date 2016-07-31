@@ -19,9 +19,16 @@
           <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
           {% endif %}
         {% endfor %}
+        <a class = "page-link" href="{{site.posts.first.url| prepend: site.baseurl}} ">Blog</a>
       </div>
     </nav>
 
   </div>
 
+
+
 </header>
+
+<div>
+    <img src= "{{site.url}}/assets/header.jpg", width = 100%>
+</div>

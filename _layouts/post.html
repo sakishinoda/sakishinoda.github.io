@@ -14,15 +14,20 @@ layout: default
 
 </article>
 
-<h1 class = "page-heading">Related Posts</h1>
-<ul class="post-list">
-  {% for post in site.related_posts %}
-    <li>
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<h1 class = "page-heading">See other posts</h1>
 
-      <h2>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </h2>
+<ul class="post-list">
+
+    <li>
+        {% for post in site.posts %}
+          <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+            <h2>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+          </li>
+        {% endfor %}
     </li>
-  {% endfor %}
+
 </ul>

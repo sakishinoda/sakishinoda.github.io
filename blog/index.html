@@ -1,16 +1,14 @@
 ---
 layout: page
-title: Blog
 
 ---
 
 <!-- This loops through the paginated posts -->
-{% for post in paginator.posts %}
-  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+
+  <h1 class = "post-title"><a href="{{ post.url }}">{{ site.posts.first.title }}</a></h1>
   <p class="author">
-    <span class="date">{{ post.date }}</span>
+    <span class="date">{{ site.posts.first.date }}</span>
   </p>
   <div class="content">
-    {{ post.content }}
+    {{ site.posts.first.content }}
   </div>
-{% endfor %}
