@@ -8,6 +8,7 @@
 # Site settings
 title: Saki Shinoda
 author: Saki Shinoda
+your_name: Saki Shinoda
 email: saki@shinoda.me
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -23,3 +24,11 @@ markdown: kramdown
 # gems: [jekyll-paginate]
 # paginate: 5
 # paginate_path: "/blog/page:num/"
+
+
+# Sass settings
+sass:
+  style: compressed
+
+# Theme settings
+theme_mode: markdown  # choices are: 'dark', 'standard', 'markdown'
