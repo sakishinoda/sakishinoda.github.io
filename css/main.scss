@@ -3,32 +3,15 @@
 ---
 @charset "utf-8";
 
-@import 'https://fonts.googleapis.com/css?family=Fira+Mono|Source+Sans+Pro';
 
 // Our variables
-$base-font-family: 'Source Sans Pro', sans-serif;
-$base-font-size:   16px;
-$base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
-$mono-font-family: 'Fira Mono', monospace;
+$spacing-unit:     10px;
+$image-size:       50px;
+$icon-size:        15px;
 
-$spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-// Width of the content area
-$content-width:    800px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
+// Sizes
+$on-palm:          768px;
 
 
 // Use media queries like this:
@@ -45,10 +28,24 @@ $on-laptop:        800px;
 }
 
 
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
-        "syntax-highlighting"
+        "styles",
+        "highlight"
 ;
+
+@import 'https://fonts.googleapis.com/css?family=Fira+Mono|Source+Sans+Pro|Oxygen+Mono';
+
+body, .standard{font-family:Oxygen Mono,Fira Mono,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif}
+
+code{font-family:Oxygen Mono,Fira Mono,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif}
+
+// .hack blockquote,.hack code,.hack em,.hack h1,.hack h2,.hack h3,.hack h4,.hack h5,.hack h6,.hack strong{font-family:Fira Mono, Oxygen Mono, Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif}
+
+// @import 'https://fonts.googleapis.com/css?family=Fira+Mono|Source+Sans+Pro';
+// $base-font-family: 'Source Sans Pro', sans-serif;
+// $base-font-size:   16px;
+// $base-font-weight: 400;
+// $small-font-size:  $base-font-size * 0.875;
+// $base-line-height: 1.5;
+// $mono-font-family: 'Fira Mono', monospace;
