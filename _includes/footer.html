@@ -1,48 +1,32 @@
-<div>
-    <img src= "{{site.url}}/assets/footer.jpg", width = 100%>
-</div>
+<footer class="t-hackcss-footer">
+  <hr />
 
-<footer class="site-footer">
+  <h3 class="footer-heading">{{ site.title }}</h3>
 
-  <div class="wrapper">
+  <div class="grid t-hackcss-sm-reversed-grid">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
+    <div class="cell -5of12">
+      <div class="contact-list">
+        <p>
+          {{ site.your_name }},
+          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        </p>
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-          <img src = "{{site.url}}/assets/saki_pic.jpg", width = 110px>
+        {% for social in site.social %}
+          {% assign template = social.service|prepend:"icon-"|append:".html" %}
+          <span class="t-hackcss-social">
+            <i class="t-hackcss-icon">{% include {{ template }} %}</i>
+            <a href="{{ social.link }}">{{ social.username }}</a>
+          </span>
+        {% endfor %}
       </div>
-
-      <div class="footer-col footer-col-2">
-
-      <ul class="contact-list">
-
-        <li>{{ site.author }}</li>
-        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-
-      </ul>
-
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
-
     </div>
 
+    <div id="footer-spacer" class="cell -1of12"></div>
+
+    <div class="cell -6of12">
+      <p>{{ site.description }}</p>
+    </div>
   </div>
 
 </footer>

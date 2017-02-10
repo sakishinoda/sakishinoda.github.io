@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: default
 title: About
-permalink: /about/
+permalink: about
 ---
 
 <!-- This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
@@ -14,7 +14,9 @@ You can find the source code for Jekyll at
 {% include icon-github.html username="jekyll" %} /
 [jekyll](https://github.com/jekyll/jekyll) -->
 
-### Me
+# About
+
+## Me
 
 Now, depending on what fold of my topologically complex personality you're particularly concerned with, one, some, or none of the following tidbits may be of interest to you. I am:
 
@@ -41,7 +43,7 @@ Now, depending on what fold of my topologically complex personality you're parti
 
 
 
-### This site
+## This site
 
 This site is built using [Jekyll](https://jekyllrb.com) on the [Github Pages](https://github.io) platform, using the [Atom](https://atom.io/) editor. Why? I enjoy writing Github-flavored Markdown, using the command line, and wrangling with git.
 
