@@ -36,17 +36,19 @@ navigation:
     url: /
   - text: Docs
     url: /docs
-  - text: Examples
-    url: /examples
+  - text: Projects
+    url: /projects/
   - text: About
-    url: /about
+    url: /about/
+  - text: Blog
+    url: /blog/
 
 
 projects:
-  # - name: git-secret
-  #   description: A bash-tool to store your private data inside a git repository.
-  #   link: https://sobolevn.github.io/git-secret
-  #   image: https://github.com/sobolevn/git-secret/blob/7c9ae0b1853d4c15549027524121b9e40219fe47/images/git-secret-sm.png?raw=true
+  - name: snlp
+    description: "Code implementing attentive recurrent neural networks from Rocktaschel et al. 2016 and Logeswaran et al. 2017 for machine reading."
+    link: https://github.com/sakishinoda/snlp
+    # image:
   # - name: awesome-cryptography
   #   description: A curated list of cryptography resources and links.
   #   link: https://github.com/sobolevn/awesome-cryptography
