@@ -10,9 +10,9 @@
 your_name: Saki Shinoda
 email: saki@shinoda.me
 title: Saki Shinoda
-author: Saki Shinoda
+# author: Saki Shinoda
 description: > # this means to ignore newlines until "baseurl:"
-  A minimalistic theme for Jekyll, based on hack.css
+  Website of Saki Shinoda. Practitioner of machine learning, scientific computing, data science, programming.
 # repository: https://github.com/wemake-services/jekyll-theme-hackcss
 
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -23,21 +23,23 @@ url: "http://localhost:4000" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
-
+highlighter: rouge
+# markdown: kramdown
+# kramdown:
+#   input: GFM
+#   syntax_highlighter: rouge
 # Sass settings
 sass:
   style: compressed
 
 # Theme settings
-theme_mode: standard # choices are: 'dark', 'standard', 'markdown'
+theme_mode: markdown # choices are: 'dark', 'standard', 'markdown'
 
 navigation:
   - text: Home
     url: /
-  - text: Docs
-    url: /docs
-  - text: Projects
-    url: /projects/
+  # - text: Projects
+  #   url: /projects/
   - text: About
     url: /about/
   - text: Blog
@@ -48,17 +50,6 @@ projects:
   - name: snlp
     description: "Code implementing attentive recurrent neural networks from Rocktaschel et al. 2016 and Logeswaran et al. 2017 for machine reading."
     link: https://github.com/sakishinoda/snlp
-    # image:
-  # - name: awesome-cryptography
-  #   description: A curated list of cryptography resources and links.
-  #   link: https://github.com/sobolevn/awesome-cryptography
-  #   image: https://pbs.twimg.com/profile_images/751426570607271937/vGxpniun_400x400.jpg
-  # - name: ecto_autoslug_field
-  #   description: Automatically creates slugs for your Ecto models.
-  #   link: https://github.com/sobolevn/ecto_autoslug_field
-  # - name: django-split-settings
-  #   description: Organize Django settings into multiple files and directories. Easily override and modify settings. Use wildcards and optional settings files.
-  #   link: https://github.com/sobolevn/django-split-settings
 
 social:
   - service: github

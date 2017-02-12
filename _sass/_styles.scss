@@ -1,11 +1,5 @@
 // This file contains custom (non hack.css) styles
-// @import 'https://fonts.googleapis.com/css?family=Fira+Mono|Source+Sans+Pro';
-// $base-font-family: 'Source Sans Pro', sans-serif;
-// $base-font-size:   16px;
-// $base-font-weight: 400;
-// $small-font-size:  $base-font-size * 0.875;
-// $base-line-height: 1.5;
-// $mono-font-family: 'Fira Mono', monospace;
+
 .t-hackcss {  // Main prefix to avoid collisions
 
   // navigation.html
@@ -92,3 +86,7 @@
     text-align: center;
   }
 }
+
+@import 'https://fonts.googleapis.com/css?family=Fira+Mono|Source+Sans+Pro';
+body, .standard{font-family:Source Sans Pro,Fira Mono,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif}
+code{font-family:Fira Mono,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif; font-size: 85%;}

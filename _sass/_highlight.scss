@@ -6,6 +6,16 @@ code.highlighter-rouge {
   padding-bottom: 0.2em;
   margin: 0;
   font-size: 85%;
-  background-color: rgba(0,0,0,0.04);
+  // background-color: rgba(0,0,0,0.4);
+  border-radius: 3px;
+}
+
+pre {
+  padding: 0.5em;
+  // padding-top: 0.2em;
+  // padding-bottom: 0.2em;
+  margin: 0;
+  // font-size: 85%;
+  // background-color: #1b1d1e;
   border-radius: 3px;
 }

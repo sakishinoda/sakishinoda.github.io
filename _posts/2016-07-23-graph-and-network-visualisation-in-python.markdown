@@ -3,7 +3,12 @@ layout: post
 title:  "Graph and network visualisation in Python"
 date:   2016-07-23 10:39:00 +0200
 tags: [data, programming, visualization]
+image_preview: http://habrastorage.org/storage2/249/57e/c1a/24957ec1abe44ea13146dd7f3cb43fd2.png
 ---
+<!-- categories: ruby -->
+<!-- short_description: This post will cover all the process of parsing JSON with Ruby. -->
+<!-- image_preview:  -->
+
 
 I've been playing around with graphical models in Python, and decided to pull together some of the resources I've seen and thoughts I've had regarding network/graph visualization in Python using Networkx. A few things to note:
 
