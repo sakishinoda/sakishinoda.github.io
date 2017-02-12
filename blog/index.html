@@ -16,14 +16,10 @@ permalink: /blog/
 
 <section>
   <h1>Blog</h1>
-
-  <p>
-    Archive.
-  </p>
 </section>
 
 <section>
-  <h2>Posts</h2>
+  <h2>Archive</h2>
 
   {% for post in site.posts %}
     {% assign nth = forloop.index0 | modulo:2 %}
