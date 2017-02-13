@@ -22,7 +22,7 @@ I might elaborate on this later, but at the moment this is a barebones script fo
 
 * The final step launches a Jupyter notebook server that you can access by substituting in the Public IP address (see AWS instance details panel) into the notebook location that the terminal output shows
 
-* An alternative is to link in to a bash terminal within the Docker container, where you can run python scripts without using Notebook, etc. but will leave writing about that to another day 
+* An alternative is to link in to a bash terminal within the Docker container, where you can run python scripts without using Notebook, etc. but will leave writing about that to another day
 
 ***
 
