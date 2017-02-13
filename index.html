@@ -4,9 +4,20 @@ layout: default
 <div>
   <section>
     <h1>Saki Shinoda</h1>
-
-    <p>
-      Machine learning, scientific computing, data science, programming.
-    </p>
+    <strong>Machine learning, scientific computing, data science, programming.</strong>
+    <p>I created this website mostly to host a <a href="blog/">blog</a> to save and share tips and tricks I come across while working on various (coding) projects, including links to other people's solutions and hacks. Nonetheless, I am working on a projects/portfolio page.</p>
+    <hr>
+  </section>
+  <section>
+    <strong>Latest post:</strong>
+  <h1 class = "post-title"><a href="{{ post.url }}">{{ site.posts.first.title }}</a></h1>
+  <p class="author">
+    <span class="date">{{ site.posts.first.date }}</span>
+  </p>
+  <div class="content">
+    {{ site.posts.first.content }}
   </section>
 </div>
+
+
+

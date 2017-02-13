@@ -4,7 +4,7 @@ title:  "Notes on building this site"
 date:   2017-02-12 22:47:00 +0100
 tags: [web, programming]
 short_description: "Some things I learned while building this github.io pages site using jekyll-theme-hackcss"
-image_preview: https://jekyllrb.com/img/logo-2x.png
+image_preview: https://www.sketchappsources.com/resources/source-image/jekyll-logo-sketch.png
 ---
 I thought [jekyll](https://jekyllrb.com) and Github Pages would be an easy way to get a website up and running with minimal CSS and HTML hackery. Like many a millennial I learned CSS and HTML at a very early age, but I don't much find it particularly fulfilling to wrangle with these days. What has been a little more interesting is learning about Ruby (I guess).
 
