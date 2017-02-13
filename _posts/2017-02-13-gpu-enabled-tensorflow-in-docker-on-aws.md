@@ -6,7 +6,7 @@ short_description: "A very quick guide and setup script."
 image_preview: https://secure.gravatar.com/avatar/26da7b36ff8bb5db4211400358dc7c4e.jpg?s=512&r=g&d=mm
 tags: [python, tensorflow, docker, gpu]
 ---
-**Update:** I tried saving this setup as an AMI to then launch a new spot instance from. Turns out to be able to persist use of the Nvidia drivers, Nouveau needs to be blacklisted (as described [here](https://github.com/NVIDIA/nvidia-docker/issues/137)). I also only just discovered that nvidia-docker has [specific documentation](https://github.com/NVIDIA/nvidia-docker/wiki/Deploy-on-Amazon-EC2) for deployment on AWS EC2. I might check that out an fix things. I might alternatively work on a non-Docker Tensorflow-GPU install since Docker might just be even more hassle than CUDNN, etc.
+**Update:** I tried saving this setup as an AMI to then launch a new spot instance from. Turns out to be able to persist use of the Nvidia drivers, Nouveau needs to be blacklisted (as described [here](https://github.com/NVIDIA/nvidia-docker/issues/137)). I also only just discovered that nvidia-docker has [specific documentation](https://github.com/NVIDIA/nvidia-docker/wiki/Deploy-on-Amazon-EC2) for deployment on AWS EC2. I might check that out and make a fixed Nvidia-Docker + Tensorflow-GPU AMI. I might alternatively work on a non-Docker Tensorflow-GPU install since Docker might just be even more hassle than CUDNN, etc.
 
 ***
 
