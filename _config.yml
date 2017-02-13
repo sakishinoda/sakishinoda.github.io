@@ -17,9 +17,8 @@ repository: https://github.com/sakishinoda/
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://sakishinoda.github.io" # the base hostname & protocol for your site
-# twitter_username: sakishinoda
-# github_username:  sakishinoda
 
+excerpt_separator: ""
 
 # Build settings
 markdown: kramdown
