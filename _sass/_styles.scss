@@ -90,3 +90,13 @@
 @import 'https://fonts.googleapis.com/css?family=Fira+Mono|Source+Sans+Pro';
 body, .standard{font-family:Source Sans Pro,Fira Mono,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif}
 code{font-family:Fira Mono,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif; font-size: 85%;}
+
+body{
+  word-wrap: break-word; /* force long words to break */
+  overflow-wrap: break-word; /* newer syntax standard that replaces word-wrap */
+  }
+
+code,pre,samp {
+  white-space: pre-wrap; /* force long lines to break */
+  overflow: scroll
+}
