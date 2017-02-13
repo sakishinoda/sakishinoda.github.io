@@ -53,9 +53,6 @@ social:
   - service: github
     username: sakishinoda
     link: https://github.com/sakishinoda
-  - service: twitter
-    username: sakishinoda
-    link: https://twitter.com/sakishinoda
   - service: linkedin
     username: sakishinoda
     link: https://www.linkedin.com/in/sakishinoda/
