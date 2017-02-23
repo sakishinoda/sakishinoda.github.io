@@ -48,7 +48,7 @@ My personal workaround to use spot instances:
 TLDR;
 
 * [Install from scratch using Nvidia instructions](http://www.nvidia.com/object/gpu-accelerated-applications-tensorflow-installation.html)
-* [Install with Nvidia-Docker and the Tensorflow-GPU image](https://github.com/NVIDIA/nvidia-docker/wiki/Deploy-on-Amazon-EC2) (or also see [my post]([2017/02/13/gpu-enabled-tensorflow-in-docker-on-aws.html]))
+* [Install with Nvidia-Docker and the Tensorflow-GPU image](https://github.com/NVIDIA/nvidia-docker/wiki/Deploy-on-Amazon-EC2) (or also see [my post](https://sakishinoda.github.io/2017/02/13/gpu-enabled-tensorflow-in-docker-on-aws.html)
 * Install with a prebuilt AMI like [AWS Deep Learning AMI](https://aws.amazon.com/blogs/ai/the-aws-deep-learning-ami-now-with-ubuntu/) (available in standard CentOS-like Amazon Linux and Ubuntu)
 
 ### Docker 
