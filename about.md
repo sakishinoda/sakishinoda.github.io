@@ -9,7 +9,6 @@ permalink: about
 * Data scientist and aspiring machine learning researcher/engineer.
 * Interested especially in machine vision and applications to scientific computing.
 * Currently in London. Previously in Cambridge, UK and Basel, CH.
-* Favourite coffee: latte with 1--2 sugars
 
 ## Me
 * [GitHub](https://github.com/sakishinoda)
