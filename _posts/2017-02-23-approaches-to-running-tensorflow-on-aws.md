@@ -3,7 +3,7 @@ layout: post
 title: Approaches to running Tensorflow on AWS
 date: 2017-02-23 13:09:00 +0000
 short_description: What are the options when it comes to setting up Tensorflow on AWS?
-image_preview: https://secure.gravatar.com/avatar/26da7b36ff8bb5db4211400358dc7c4e.jpg?s=512&r=g&d=mm
+image_preview: https://avatars2.githubusercontent.com/u/15658638?v=3&s=200
 tags: [python, tensorflow, docker, gpu]
 
 ---
