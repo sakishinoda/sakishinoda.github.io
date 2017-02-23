@@ -27,6 +27,7 @@ Pricing is a function of the instance type and what region you run your instance
 * [Spot pricing](https://aws.amazon.com/ec2/spot/pricing/)
 
 ### On-demand vs. spot instances
+TLDR; If you have an AMI you are happy with and you don't mind mounting disks when launching new instances, and you don't mind not being able to temporarily STOP instances (as opposed to terminate), spot instances are not scary and are very cheap!
 
 * Need to request limits for on-demand instances, which can take a few days
 * Spot instances require a little more care to make sure your data doesn't get lost, BUT so much cheaper
