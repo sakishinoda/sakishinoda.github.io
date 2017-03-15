@@ -51,7 +51,7 @@ TLDR;
 * [Install with Nvidia-Docker and the Tensorflow-GPU image](https://github.com/NVIDIA/nvidia-docker/wiki/Deploy-on-Amazon-EC2) (or also see [my post](https://sakishinoda.github.io/2017/02/13/gpu-enabled-tensorflow-in-docker-on-aws.html)
 * Install with a prebuilt AMI like [AWS Deep Learning AMI](https://aws.amazon.com/blogs/ai/the-aws-deep-learning-ami-now-with-ubuntu/) (available in standard CentOS-like Amazon Linux and Ubuntu)
 
-### Docker 
+### Docker
 The main argument to use Docker, in my view, is to not have to:
 
 * sign up for Nvidia accelerated developer in order to download cuDNN
@@ -67,7 +67,7 @@ Of course, Nvidia handily provide step-by-step instructions for both alternative
 ### Prebuilt AMI's
 I have tried:
 
-* [AWS Deep Learning AMI](https://aws.amazon.com/blogs/ai/the-aws-deep-learning-ami-now-with-ubuntu/) (very big, requests 50GB root drive, but FREE): 
+* [AWS Deep Learning AMI](https://aws.amazon.com/blogs/ai/the-aws-deep-learning-ami-now-with-ubuntu/) (very big, requests 50GB root drive, but FREE):
 
 I have not tried:
 
