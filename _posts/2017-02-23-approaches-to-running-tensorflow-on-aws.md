@@ -76,7 +76,7 @@ I have not tried:
 
 
 ### From scratch
-I haven't done [this]((http://www.nvidia.com/object/gpu-accelerated-applications-tensorflow-installation.html)) yet but intend to do so soon.
+I haven't done [this](http://www.nvidia.com/object/gpu-accelerated-applications-tensorflow-installation.html) yet but intend to do so soon.
 
 ## Miscellaneous
 
