@@ -13,7 +13,7 @@ title: Saki Shinoda
 # author: Saki Shinoda
 description: > # this means to ignore newlines until "baseurl:"
   The homepage of Saki Shinoda, practitioner of machine learning, scientific computing, data science, programming, etc.
-repository: https://github.com/sakishinoda/
+repository: sakishinoda/sakishinoda.github.io
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://sakishinoda.github.io" # the base hostname & protocol for your site
@@ -24,12 +24,7 @@ excerpt_separator: ""
 markdown: kramdown
 highlighter: rouge
 
-# Sass settings
-sass:
-  style: compressed
-
-# Theme settings
-theme_mode: markdown # choices are: 'dark', 'standard', 'markdown'
+theme: jekyll-theme-minimal
 
 navigation:
   - text: Home
@@ -50,6 +45,9 @@ projects:
     link: https://github.com/sakishinoda/snlp
 
 social:
+  - service: email
+    username: saki@shinoda.me
+    link: "mailto:saki@shinoda.me"
   - service: github
     username: sakishinoda
     link: https://github.com/sakishinoda
@@ -63,3 +61,5 @@ social:
 # Plugins
 gems:
   - jekyll-seo-tag
+  - jekyll-theme-minimal
+  

@@ -3,3 +3,7 @@ source "https://rubygems.org"
 
 gem "jekyll"
 gem "jekyll-seo-tag"
+gem "jekyll-theme-minimal"
+gem "minima"
+
+gem "github-pages", group: :jekyll_plugins

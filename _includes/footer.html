@@ -1,33 +1,12 @@
-<footer class="t-hackcss-footer">
-  <hr />
-
-  <h3 class="footer-heading">{{ site.title }}</h3>
-
-  <div class="grid t-hackcss-sm-reversed-grid">
-
-    <div class="cell -5of12">
-      <div class="contact-list">
-        <p>
-          {{ site.your_name }},
-          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-        </p>
-
-        {% for social in site.social %}
-          {% assign template = social.service|prepend:"icon-"|append:".html" %}
-          <span class="t-hackcss-social">
-            <!--<i class="t-hackcss-icon">{% include {{ template }} %}</i>-->
-            <!--<a href="{{ social.link }}">{{ social.username }}</a>-->
-            <a href="{{ social.link }}"><i class="t-hackcss-icon">{% include {{ template }} %}</i></a>
-          </span>
-        {% endfor %}
-      </div>
-    </div>
-
-    <div id="footer-spacer" class="cell -1of12"></div>
-
-    <div class="cell -6of12">
-      <p>{{ site.description }}</p>
-    </div>
-  </div>
-
+<footer>
+	{% for social in site.social %}
+		{% assign template = social.service|prepend:"icon-"|append:".html" %}
+			<a href="{{ social.link }}"><i style="display: inline-block;
+				vertical-align: middle;
+				width: 30px;
+				height: 30px;">{% include {{ template }} %}</i></a>
+	{% endfor %}
+		
+		<p><small>Hosted on GitHub Pages &mdash; Theme by <a 			href="https://github.com/orderedlist">orderedlist</a></small></p>
+		
 </footer>

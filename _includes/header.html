@@ -1,0 +1,10 @@
+  <header>
+    <h1>{{ site.title | default: site.github.repository_name }}</h1>
+    <p>{{ site.description | default: site.github.project_tagline }}</p>
+	
+	{% for nav in site.navigation %}
+		<div><a href={{nav.url}}>|---{{nav.text}}</a></div>
+	{% endfor %}
+	
+  </header>
+  

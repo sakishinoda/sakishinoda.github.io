@@ -30,5 +30,4 @@ permalink: about
 
 ## This site
 This site uses [Jekyll](https://jekyllrb.com) on the [Github Pages](https://github.io) platform.
-The theme is [jekyll-theme-hackcss](https://github.com/wemake-services/jekyll-theme-hackcss/) under [GNU PGL 3 license](https://github.com/wemake-services/jekyll-theme-hackcss/blob/3cbe97b71a56a19eba386dd928e125b71e50c71e/LICENSE).
 Fonts used are [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro) (sans-serif) and [Fira Mono](https://fonts.google.com/specimen/Fira+Mono) (monospace).
