@@ -29,4 +29,3 @@ permalink: about
 
 ## This site
 This site uses [Jekyll](https://jekyllrb.com) on the [Github Pages](https://github.io) platform.
-Fonts used are [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro) (sans-serif) and [Fira Mono](https://fonts.google.com/specimen/Fira+Mono) (monospace).
