@@ -1,36 +1,44 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title>
 
-  {% include head.html %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      
+	  {%include header.html%}
 
+      <section>
 
-  {% if site.theme_mode == 'markdown' %}
-  <body class="hack">
-  {% elsif site.theme_mode == 'standard' %}
-  <body class="standard">
-  {% elsif site.theme_mode == 'dark' %}
-  <body class="hack dark">
-  {% endif %}
+      {{ content }}
 
-    {% include github-ribbon.html %}
-
-    <div class="container">
-      <div class="grid">
-        <aside class="cell -3of12" role="navigation">
-          {% include navigation.html %}
-        </aside>
-
-        <main class="cell -9of12">
-          {{ content }}
-        </main>
-      </div>
-
-    {% include footer.html %}
-
+      </section>
+	  
+	  {%include footer.html%}
+	  
     </div>
+    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
 
-    <!-- Prism.js -->
-    <script src="https://npmcdn.com/prismjs@1.5.1/prism.js"></script>
+
+  {% if site.google_analytics %}
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      try {
+        var pageTracker = _gat._getTracker("{{ site.google_analytics }}");
+      pageTracker._trackPageview();
+      } catch(err) {}
+    </script>
+  {% endif %}
   </body>
-
 </html>
