@@ -1,8 +1,3 @@
 # Saki Shinoda's website
 
-Jekyll using theme [jekyll-theme-hackcss](https://github.com/wemake-services/jekyll-theme-hackcss/) under GNU PGL 3  [license](https://github.com/wemake-services/jekyll-theme-hackcss/blob/3cbe97b71a56a19eba386dd928e125b71e50c71e/LICENSE).
-
-## To Do
-* [ ] Tags page
-* [ ] Clean up blog posts
-* [ ] Overflow scrolling of code blocks: currently awkward linebreaking
+Completely revamped to use the Github minimal theme since the hackcss theme I was using earlier didn't work very well on Firefox.
