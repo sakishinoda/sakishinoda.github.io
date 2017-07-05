@@ -8,7 +8,7 @@
 # Site settings
 # Customizations
 your_name: Saki Shinoda
-email: saki@shinoda.me
+email: shinodasaki@gmail.com
 title: Saki Shinoda
 # author: Saki Shinoda
 description: "Stuff by Saki Shinoda on machine learning, scientific computing, data science, programming, etc."
@@ -43,7 +43,7 @@ projects:
 social:
   - service: email
     username: saki@shinoda.me
-    link: "mailto:saki@shinoda.me"
+    link: "mailto:shinodasaki@gmail.com"
   - service: github
     username: sakishinoda
     link: https://github.com/sakishinoda
