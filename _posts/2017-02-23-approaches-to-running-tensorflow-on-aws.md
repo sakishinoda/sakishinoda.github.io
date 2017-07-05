@@ -93,3 +93,4 @@ I haven't done [this](http://www.nvidia.com/object/gpu-accelerated-applications-
 ### Links
 
 * [Someone's tutorial on setting up Keras on AWS](http://machinelearningmastery.com/develop-evaluate-large-deep-learning-models-keras-amazon-web-services/)
+* [Persistent AWS Spot instances](https://medium.com/slavv/learning-machine-learning-on-the-cheap-persistent-aws-spot-instances-668e7294b6d8#.cg4euv4ak) blog post recommended to me on Twitter by [@ArtirKel](https://twitter.com/ArtirKel)
