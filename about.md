@@ -6,30 +6,15 @@ permalink: about
 
 # About
 
-* Data scientist and machine learning researcher/engineer, particularly in deep learning.
-* Interested especially in machine vision and applications to scientific computing.
-* Currently in London. Previously in Cambridge, UK and Basel, CH.
+I'm a research scientist in deep learning and reinforcement learning for [Prediction Machines](http://prediction-machines.com), based in London, UK. I hold an undergraduate degree from the University of Cambridge in Natural Sciences (Physical Sciences) and a postgraduate MSc from University College London in Computational Statistics and Machine Learning.
 
-## Me
+## Links
 * [GitHub](https://github.com/sakishinoda)
 * [LinkedIn](https://www.linkedin.com/in/sakishinoda/)
 
-### Academic
-* (Candidate) MSc Computational Statistics and Machine Learning, University College London
-    * Taught courses:
-        * Computer Vision
-        * Natural Language Processing
-        * Supervised Learning
-        * Probabilistic Graphical Models
-        * Statistical Models and Data Analysis
-        * Applied Bayesian Methods
-        * Computational Modelling for Biomedical Imaging
-        * Advanced Topics in Machine Learning (Deep Learning and Reinforcement Learning, taught by Google DeepMind)
-    * Research thesis: Deep semi-supervised learning with Computer Vision group
-    
-* BA Natural Sciences (Physical Sciences) at King's College, Cambridge University
-
-### Work
+## Stuff I've Done
+* MSc Computational Statistics and Machine Learning, University College London (UCL), UK
+* BA Natural Sciences (Physical Sciences), King's College, University of Cambridge, UK 
 * Two months working on machine learning for clinical patient stratification using multi-omics data at the Novartis Institutes for Biomedical Research (NIBR)
 * Two months + two weeks on separate occasions doing data science and machine learning at Metail
 * Ten days on a spring insight week at Goldman Sachs
