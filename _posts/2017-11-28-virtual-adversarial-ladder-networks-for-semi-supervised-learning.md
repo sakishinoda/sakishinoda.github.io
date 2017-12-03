@@ -3,7 +3,7 @@ layout: post
 title: Virtual Adversarial Ladder Networks for Semi-Supervised Learning
 date: 2017-11-28 18:49 +0000
 tags: [ml, dl, cv]
-image_preview: http://sakishinoda.github.io/assets/ladder.png
+image_preview: http://sakishinoda.github.io/assets/lvanlw.png
 short_description: "Paper accepted to the LLD workshop at NIPS 2017."
 ---
 Authors: Saki Shinoda, [Daniel E. Worrall](http://www0.cs.ucl.ac.uk/staff/D.Worrall/07_virtual_adversarial_ladder/index.html), Gabriel J. Brostow
