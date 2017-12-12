@@ -14,7 +14,7 @@ title: Home
 description: "Stuff by Saki Shinoda on machine learning, scientific computing, data science, programming, etc."
 repository: sakishinoda/sakishinoda.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://sakishinoda.github.io" # the base hostname & protocol for your site
+url: "https://sakishinoda.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
@@ -42,7 +42,7 @@ projects:
 
 social:
   - service: email
-    username: saki@shinoda.me
+    username: shinodasaki
     link: "mailto:shinodasaki@gmail.com"
   - service: github
     username: sakishinoda
