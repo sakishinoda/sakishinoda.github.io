@@ -10,7 +10,7 @@ Stuff I find useful that you might find useful too.
 
 * [ML Researcher Twitter List](https://twitter.com/sakishinoda/lists/ml): A collection of researchers and machine learning / deep learning-related companies active on Twitter.
 * [Distill](http://distill.pub/): Online-first peer-reviewed journal on machine learning with clear, interactive visualisations and demos. Lots of star power in the steering committee.
-* [WildML](http://www.wildml.com): Blog by Denny Britz, a Google Brain resident, on assorted topics in machine learning.
+* [WildML](http://www.wildml.com): Blog by Denny Britz, a former Google Brain resident and more recently my colleague at Prediction Machines, on assorted topics in machine learning.
 
 
 ***
