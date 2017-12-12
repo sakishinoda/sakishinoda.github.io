@@ -3,7 +3,7 @@
     <p>{{ site.description | default: site.github.project_tagline }}</p>
 	
 	{% for nav in site.navigation %}
-		<div><a href={{nav.url}}>|---{{nav.text}}</a></div>
+		<div><a href={{nav.url}}>|{{nav.text}}</a></div>
 	{% endfor %}
 	
   </header>
