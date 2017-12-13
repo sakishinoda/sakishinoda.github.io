@@ -33,7 +33,7 @@ navigation:
     url: /blog/
   - text: Links
     url: /links
-  - text: ML Notes
+  - text: Paper Notes
     url: https://github.com/sakishinoda/ml-reading-notes/
 
 
