@@ -55,6 +55,9 @@ social:
   - service: linkedin
     username: sakishinoda
     link: https://www.linkedin.com/in/sakishinoda/
+  - service: scholar
+    username: T8NslicAAAAJ
+    link: https://scholar.google.com/citations?user=T8NslicAAAAJ
 
 # Plugins
 gems:
