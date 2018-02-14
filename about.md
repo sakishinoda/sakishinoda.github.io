@@ -6,7 +6,7 @@ permalink: about
 
 # About
 
-I'm a research scientist in deep learning and reinforcement learning for [Prediction Machines](http://prediction-machines.com), based in London, UK. I hold an undergraduate degree from the University of Cambridge in Natural Sciences (Physical Sciences) and a postgraduate MSc from University College London in Computational Statistics and Machine Learning.
+I'm a research scientist in deep learning and reinforcement learning for RKR Capital, based in London, UK. I hold an undergraduate degree from the University of Cambridge in Natural Sciences (Physical Sciences) and a postgraduate MSc from University College London in Computational Statistics and Machine Learning.
 
 ## Links
 * [GitHub](https://github.com/sakishinoda)
@@ -20,6 +20,7 @@ I'm a research scientist in deep learning and reinforcement learning for [Predic
 * Ten days on a spring insight week at Goldman Sachs
 * Ten weeks business intelligence and assorted project management at Syngenta
 * 12 months project management, event management and marketing communications at Syngenta
+* Presented my MSc thesis as a workshop paper at NIPS 2017
 
 ***
 
