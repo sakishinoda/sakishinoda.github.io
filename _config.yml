@@ -12,11 +12,13 @@ email: shinodasaki@gmail.com
 title: Home
 # author: Saki Shinoda
 description: "Stuff by Saki Shinoda on machine learning, scientific computing, data science, programming, etc."
+
 repository: sakishinoda/sakishinoda.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sakishinoda.github.io" # the base hostname & protocol for your site
 
 # Build settings
+github: [metadata]
 markdown: kramdown
 highlighter: rouge
 
@@ -60,7 +62,7 @@ social:
     link: https://scholar.google.com/citations?user=T8NslicAAAAJ
 
 # Plugins
-gems:
+plugins:
   - jekyll-seo-tag
   - jekyll-theme-minimal
   
