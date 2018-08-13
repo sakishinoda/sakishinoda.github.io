@@ -8,9 +8,7 @@ Stuff I find useful that you might find useful too.
 
 ## General
 
-* [ML Researcher Twitter List](https://twitter.com/sakishinoda/lists/ml): A collection of researchers and machine learning / deep learning-related companies active on Twitter.
 * [Distill](http://distill.pub/): Online-first peer-reviewed journal on machine learning with clear, interactive visualisations and demos. Lots of star power in the steering committee.
-* [WildML](http://www.wildml.com): Blog by Denny Britz, a former Google Brain resident and more recently my colleague at Prediction Machines, on assorted topics in machine learning.
 
 
 ***
@@ -34,11 +32,6 @@ Stuff I find useful that you might find useful too.
 
 ## Python
 * [Using % and .format() for great good!](https://pyformat.info): my go-to source for Python string formatting
-
-***
-
-## Tensorflow
-* [RNNS in Tensorflow: A practical guide and undocumented features](http://www.wildml.com/2016/08/rnns-in-tensorflow-a-practical-guide-and-undocumented-features/)
 
 ***
 
