@@ -6,7 +6,7 @@ permalink: about
 
 # About
 
-I'm a research scientist in deep learning for RKR Epsilon, based in London, UK. I hold an undergraduate degree from the University of Cambridge in Natural Sciences (Physical Sciences) and a postgraduate MSc from University College London in Computational Statistics and Machine Learning.
+I'm a machine learning engineer for Niantic, of Pokemon Go fame, in London, UK. I hold an undergraduate degree from the University of Cambridge in Natural Sciences (Physical Sciences) and a postgraduate MSc from University College London in Computational Statistics and Machine Learning.
 
 ## Links
 * [GitHub](https://github.com/sakishinoda)
