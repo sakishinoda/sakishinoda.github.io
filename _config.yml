@@ -9,9 +9,9 @@
 # Customizations
 your_name: Saki Shinoda
 email: shinodasaki@gmail.com
-title: Home
+title: Saki Shinoda
 # author: Saki Shinoda
-description: "Stuff by Saki Shinoda on machine learning, scientific computing, data science, programming, etc."
+description: "Machine learning engineer based in London, UK."
 
 repository: sakishinoda/sakishinoda.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -27,22 +27,10 @@ theme: jekyll-theme-minimal
 navigation:
   - text: Home
     url: /
-  # - text: Projects
-  #   url: /projects/
   - text: About
     url: /about
   - text: Blog
     url: /blog/
-  - text: Links
-    url: /links
-  - text: Paper Notes
-    url: https://github.com/sakishinoda/ml-reading-notes/
-
-
-projects:
-  - name: snlp
-    description: "Code implementing attentive recurrent neural networks from Rocktaschel et al. 2016 and Logeswaran et al. 2017 for machine reading."
-    link: https://github.com/sakishinoda/snlp
 
 social:
   - service: email
